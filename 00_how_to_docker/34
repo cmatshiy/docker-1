@@ -1,0 +1,4 @@
+# Delete the Aiur virtual machine without using rm -rf.
+#rm — Remove a machine
+
+docker-machine rm -y Aiur

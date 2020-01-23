@@ -1,0 +1,5 @@
+docker swarm init --advertise-addr $(docker-machine ip Char)
+
+#######ERROR####
+#docker swarm leave -f
+#exit

@@ -1,0 +1,9 @@
+docker-machine ssh Char "docker swarm join-token worker"
+
+#docker swarm leave -f(IF EXIST)
+#1 -> docker swarm init --advertise-addr $(docker-machine ip Char)
+#2 -> docker-machine ssh Aiur
+#3 -> "pass the command inside the container"
+#  ****docker swarm join --token ****
+#4 -> EXIST
+#5 docker node ls

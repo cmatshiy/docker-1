@@ -1,0 +1,4 @@
+#Define the variables needed by your virtual machine Char
+#for out put: docker-machine env Char
+eval $(docker-machine env Char)
+

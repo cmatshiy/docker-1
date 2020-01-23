@@ -1,0 +1,5 @@
+#check answer: docker network create -d overlay overmind
+
+docker network create -d overlay overmind
+#it's list the network
+#docker network ls

@@ -1,0 +1,6 @@
+#Hello world container
+docker pull hello-world
+
+#after pull hello-world :-
+
+#docker run hello-world

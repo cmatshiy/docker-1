@@ -1,0 +1,6 @@
+#Creating the machine.	
+#Requires the '--driver' flag to indicate which provider(virtualbox, DigitalOcean or AWWS) 
+#where machine should be created on
+# the argument 'Char' indicate the created machine inside the vitualbox
+
+docker-machine create --driver virtualbox Char

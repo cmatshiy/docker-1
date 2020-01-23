@@ -1,0 +1,3 @@
+#rm — Remove one or more containers
+
+docker rm -f $(docker ps -a -q)
